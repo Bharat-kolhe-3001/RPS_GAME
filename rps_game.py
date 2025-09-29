@@ -10,6 +10,7 @@ mp_draw = mp.solutions.drawing_utils
 
 cap = cv2.VideoCapture(0)
 
+
 gestures = ['Rock', 'Paper', 'Scissors']
 rules = {
     ('Rock', 'Scissors'): 'Player wins!',
